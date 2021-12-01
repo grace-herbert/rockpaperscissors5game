@@ -74,12 +74,12 @@ function getScore(){
         console.log(compTotal);
     }
 
-    if (compScore > userScore){
+     if (compTotal > userTotal){
      resultHeading = "Bummer! You lose!!!";
      result = "Sorry you lost. The computer had " + compTotal + " points, you had " + userTotal;
 //     
         
-    }else if (compScore < userScore){
+    }else if (compTotal < userTotal){
      resultHeading = "WHOOP! You WON!!!";
      result = "You won! You had " + userTotal + " points, the computer had " + compTotal
 //     
