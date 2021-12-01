@@ -1,0 +1,54 @@
+body{
+    
+    background-image: url(images/crumpled-digital-paper-g375d13bd0_1920.jpg);
+    background-color: burlywood;
+    align-content: center;
+    text-align: center;
+}
+    
+.row{
+    margin-top: 42.5px;
+    min-height: 100px;
+    justify-content: space-between;
+}
+
+.card {
+    display:inherit;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 68px;
+
+}
+
+.innerContainer{
+    background: white;
+    color: blueviolet;
+}
+
+h2{
+
+    text-align: left;
+
+}
+
+#button{
+    margin-left: 25px;
+}
+
+#leavePage{
+    background-color: white;
+}
+
+.h1tidy{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 68px;
+
+}
+
+.h2tidy{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
